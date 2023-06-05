@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "myfont";
+  src: url("./blackgold/blackgold-regular/blackgold-regular.ttf"),
+    url("./blackgold/blackgold-bold/blackgold-bold.ttf"),
+    url("./blackgold/blackgold-light/blackgold-light.ttf"),
+    url("./blackgold/blackgold-extrabold/blackgold-extrabold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "myfont";
+  background-color: #232322;
+}
+.upper-nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding: 2rem;
+}
+.btn-again {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color: #ecedec;
+  font-family: "myfont";
+  font-size: larger;
+  cursor: pointer;
+}
+.condition {
+  color: white;
+  font-size: large;
+}
+.for-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.heading-main {
+  color: #eeedef;
+  font-size: 3rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+}
+.heading-container {
+  width: 100%;
+  text-align: center;
+}
+.hr-full {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #eeedef;
+}
+.white-box {
+  width: 9rem;
+  height: 9rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4.5rem;
+}
+.question-mark {
+  font-size: 7rem;
+  color: #333333;
+}
+.game-play-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+.only-btn-container {
+}
+.textbtn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txtfield {
+  padding: 4rem 1rem 1rem 1rem;
+  background-color: #232322;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #eeedef;
+  font-family: myfont;
+  color: white;
+}
+.btn-check {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color: #ecedec;
+  font-family: "myfont";
+  font-size: larger;
+  cursor: pointer;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.dynamic-ele1 {
+  padding-bottom: 6.5rem;
+}
