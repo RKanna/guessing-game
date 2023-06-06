@@ -115,6 +115,32 @@ body {
 .dynamic-ele1 {
   padding-bottom: 6.5rem;
 }
+.dynamic-ele1 {
+  color: #ecedec;
+}
+.dynamic-ele2 {
+  color: #ecedec;
+}
+.dynamic-ele3 {
+  color: #ecedec;
+}
 
-.txtfield {
+@media screen and (max-width: 998px) {
+  .dynamic-ele1 {
+    padding-left: 1rem;
+  }
+  .dynamic-ele2 {
+    padding-top: 2rem;
+  }
+  .txtfield {
+    width: 10rem;
+    height: 6rem;
+    font-size: 4rem;
+  }
+  .btn-check {
+    margin-bottom: 1rem;
+  }
+  .condition {
+    padding-left: 1rem;
+  }
 }
