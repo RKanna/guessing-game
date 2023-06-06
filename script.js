@@ -114,4 +114,7 @@ btnAgain.addEventListener("click", function (event) {
   document.getElementById("dynamicData1").innerText = "start Guessing...";
   document.getElementById("dynamicData2").innerText = "20";
   btnCheck.disabled = false;
+
+  fixedRandomNumber = randomNumber();
+  console.log(fixedRandomNumber);
 });
