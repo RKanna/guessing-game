@@ -89,12 +89,15 @@ body {
   align-items: center;
 }
 .txtfield {
-  padding: 4rem 1rem 1rem 1rem;
+  padding: 1rem;
   background-color: #232322;
   border: 2px solid white;
   box-shadow: 0 0 0 2px #eeedef;
   font-family: myfont;
   color: white;
+  width: 15rem;
+  height: 7rem;
+  font-size: 4rem;
 }
 .btn-check {
   padding: 1rem 2.5rem 1rem 2.5rem;
@@ -111,4 +114,7 @@ body {
 }
 .dynamic-ele1 {
   padding-bottom: 6.5rem;
+}
+
+.txtfield {
 }
