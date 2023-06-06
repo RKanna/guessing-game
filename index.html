@@ -10,7 +10,7 @@
   <body>
     <section class="upper-nav-section">
       <div class="btn-container">
-        <input type="button" class="btn-again" value="Again!" />
+        <input type="button" class="btn-again" id="btnAgain" value="Again!" />
       </div>
       <div class="condition-container">
         <span class="condition">( Between 1 and 100 )</span>
@@ -22,7 +22,9 @@
         <hr class="hr-full" />
         <div class="box-container">
           <div class="white-box">
-            <span class="question-mark">?</span>
+            <span class="question-mark" id="mask">?</span>
+            <span class="question-mark" id="emojisEle">🏆</span>
+            <span class="question-mark" id="emojiLost">🤡</span>
           </div>
         </div>
       </div>
@@ -30,18 +32,21 @@
     <section class="game-play-section">
       <div class="textbtn-container">
         <div class="only-btn-container">
-          <input type="number" class="txtfield" value="Enter the number" />
+          <input type="number" class="txtfield" id="textField" />
         </div>
         <br />
         <div class="btn-center">
-          <input type="button" class="btn-check" value="Check!" />
+          <input type="button" class="btn-check" id="btnCheck" value="Check!" />
         </div>
       </div>
       <div class="score-container">
-        <p class="dynamic-ele1">start Guessing...</p>
-        <p class="dynamic-ele2">🏅Score : 20</p>
-        <p class="dynamic-ele3">🏆Highscore : 0</p>
+        <p class="dynamic-ele1" id="dynamicData1">start Guessing...</p>
+        <p class="dynamic-ele2">🏅Score : <span id="dynamicData2">20</span></p>
+        <p class="dynamic-ele3">
+          🏆Highscore : <span id="dynamicData3">0</span>
+        </p>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
